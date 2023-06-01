@@ -1,0 +1,410 @@
+
+*{
+    padding: 0px;
+    margin: 0%;
+}
+
+
+.container{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Start Section One >> Navbar  */
+
+.navbar {
+    background-color: #e5f4fb;
+}
+.homeNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar header .logoImage{
+    width: 100px;
+}
+.navbar header img{
+    width: 100%;
+}
+
+.navbar header .home {
+    margin: 0 10px;
+}
+.navbar header .home a{
+    margin: 0 10px;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+.navbar header .home a:hover{
+    padding-bottom: 5px;
+    transition: all 0.5s ease-out;
+    border-bottom: 2px solid red ;
+}
+
+article .leftButton {
+    padding: 5px;
+    
+}
+
+article .leftButton button {
+    width: fit-content;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+article .leftButton button:hover{
+    background-color: greenyellow;
+}
+
+/* End Section One >> Navbar  */
+
+
+/* Start Landing Page  */
+
+.landing {
+    background-color:  #e5f4fb ;
+}
+.landing .backgroundline{
+    background-image: url('../Image/waves.png');
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.landing .secTwo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.landing header {
+    width: 100%;
+    /* margin: auto; */
+}
+.landing header h1{
+    color: #6b7a81;
+    font-size: 46px;
+}
+.landing header h1 span {
+    color: #814d9d;
+}
+
+.landing header p{
+    margin: 30px 0;
+    width: 60%;
+    line-height: 1.5;
+}
+
+.landing article {
+    width: 100%;
+    background-image: url('../Image/landing_bg.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.landing .bbackgroundTwo{
+
+    position: absolute;
+    bottom: -90px;
+    left: -5%;
+    opacity: 2;
+    z-index: 5;
+}
+.landing .bbackgroundTwo img{
+    width: 100%;
+}
+.landing .partTwoimg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.landing .man{
+    z-index: 5.6;
+}
+
+/* End Landing Page  */
+
+/* Start Section Three  */
+
+.threeCrazy{
+    /* background-image: url('../Image/second_section_.png');
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: left; */
+    height: 430px;
+    position: relative;
+}
+.crazy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.crazy #crazyimg1 {
+    margin-top: -60px;
+    text-align: center;
+}
+.crazy p{
+    width: 60%;
+    margin: 10px auto;
+    
+}
+.crazy #crazyimg2{
+    margin-top: 200px;
+    text-align: center;
+    z-index: 4;
+}
+.crazy .crazyPart3 {
+ margin-top: 200px;
+ text-align: center;
+}
+
+.crazy  #removexxx{
+    opacity: 0.0;
+}
+
+
+.crazy #change{
+    width: 80% !important;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    z-index: 1;
+
+}
+
+/* End Section Three  */
+
+/* Start Section Four  */
+.forPart {
+    background-color: #fff;
+}
+.fourPart .part4{
+    display: flex;
+    justify-content: space-between;
+}
+.fourPart .pa1 h1{
+    font-size: 30px;
+    font-family: 'Playfair', serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.fourPart .pa1 h5, h1{
+    display: inline-block;
+    color: #fff;
+
+}
+.fourPart .pa1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background-image: url('../Image/why_kudzoka_bg.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 25%;
+}
+.fourPart .pa2{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.fourPart .pa2 p{
+    width: 50%;
+    margin-top: 10px;
+    line-height: 1.5;
+    margin: auto;
+}
+/* End Section Four  */
+
+/* Start Section five  */
+.gallry{
+    text-align: center;
+    font-family: 'Playfair', serif;
+}
+.gallry .centering{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallry .photo2 p{
+    width: 60%;
+    margin: auto;
+}
+
+.gallry .centering img {
+    width: 100%;
+    height: auto;
+
+}
+
+/* End Section five  */
+
+/* Start Section Six For Last  */
+.end {
+    background-image: url('../Image/Group\ 1131.png');
+    background-size: 115%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 515px;
+}
+.end img{
+    width: 100%;
+}
+
+.end .footering{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.end .footering .contentLeft{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 10;
+    margin-top: 242px;
+}
+.end .footering .contentLeft .btn01{
+    display: flex;
+    justify-content: space-between;
+}
+.end .footering .contentLeft #appStore , #appStore2{
+    /* padding: 2px;
+    margin: 0 5px; */
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+}
+.end .footering .contentLeft button:first-child:hover{
+    background-color: blue;
+    color: #fff;
+}
+.end .footering .contentLeft button:first-child i:hover{
+    color: #fff !important;
+}
+.end .footering .contentLeft button:last-child:hover{
+    background-color: orange;
+}
+.end .footering .contentLeft .social{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 50px;
+    /* margin: -350px 0; */
+}
+
+.end .footering .contentLeft .social i{
+    margin: 0px 15px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+    transition: .3s all ease-out;
+    
+}
+.end .footering .contentLeft .social i:nth-child(1):hover{
+    color: #07c6ec;
+}
+.end .footering .contentLeft .social i:nth-child(2):hover{
+    color:rgb(14, 255, 14);
+}
+.end .footering .contentLeft .social i:nth-child(3):hover{
+    color: rgb(9, 31, 238);
+}
+
+
+.end .footering .contentLeft button i{
+    font-size: 35px;
+    padding: 0 10px;
+    display: block;
+}
+
+.end .footering .contentLeft .linksPage{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    /* margin: 200px 0; */
+    /* margin-bottom: 25px; */
+}
+
+.end .footering .contentLeft .linksPage a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: .3s all ease-out;
+}
+
+.end .footering .contentLeft .linksPage a:hover{
+    color: black;
+}
+
+
+.end .footering .imageRight {
+    /* width: fit-content; */
+}
+
+
+
+
+.imageRight .mainPhoto{
+    width: 100%;
+    margin: 0px 85px;
+}
+.imageRight .mainPhoto .partPhoto{
+    width: 500px;
+    margin: auto;
+}
+
+.imageRight .mainPhoto .partPhoto img{
+    width: 100%;
+}
+/* End Section Six For Last  */
+
+
+
+
+/* #owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  } */
+/* .gallry .centering .photo1, .photo2, .photo3{
+    width: 40%;
+} */
+
+
+/* 
+#owl-demo .item{
+    margin: 3px;
+}
+  #owl-demo .item img{
+    display: block !important;
+    width: 100%;
+    height: auto;
+} */
